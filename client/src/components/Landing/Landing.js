@@ -16,6 +16,12 @@ const Landing = () => (
         <div className="">
             <img className='banner' src={voluntierImage} alt='banner' />
         </div>
+        <div className="jumbotron">
+            <h3>About Voluntier</h3>
+                <p>Voluntier is a social media site with the purpose of connecting volunteers with opportunities.</p>
+                <p>Do you know somebody that has changed majors or careers after spending years in a chosen field? Does the question "what do I want to do in life" cause you stress? We offer the opportunity to “test drive” a career field before committing.</p>
+        </div>   
+        
         <h3>Our Team</h3>
             <p>Jack, Stephen, Ruhi, Akshay</p>
             <div className="row">
@@ -24,10 +30,7 @@ const Landing = () => (
                 <img className="profile" src={ruhi} alt="ruhi" />
                 <img className="profile" src={akshay} alt="akshay" />
             </div>
-        <h3>About Voluntier</h3>
-            <p>Voluntier is a social media site with the purpose of connecting volunteers with opportunities.</p>
-            <p>Do you know somebody that has changed majors or careers after spending years in a chosen field? Does the question "what do I want to do in life" cause you stress? We offer the opportunity to “test drive” a career field before committing.</p>
-            <p></p>
+        
     </div>
 );
 
