@@ -88,7 +88,7 @@ class Post extends Component {
                     <FormBtn id="SubmitPost"
                         disabled={!isEnabled}
                         onClick={this.handleForumSubmit}>
-                    <p>Submit Post!!</p>
+                    Submit Post
                     </FormBtn>
                 </form>
                 
