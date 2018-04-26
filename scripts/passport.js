@@ -30,7 +30,7 @@ passport.use(new GoogleStrategy({
     clientID: keys.googleClientID,
     clientSecret: keys.googleClientSecret,
     // Callback URL
-    callbackURL: '/auth/google/callback',
+    callbackURL: 'https://quiet-badlands-38905.herokuapp.com/auth/google/callback',
     proxy: true
 }, 
 async (accessToken, refreshToken, profile, done) => {
