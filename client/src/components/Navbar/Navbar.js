@@ -30,7 +30,7 @@ class Navbar extends Component {
                 <div className="top-bar" id="responsive-menu">
                     <div className="top-bar-left">
                         <ul className="dropdown menu" data-dropdown-menu>
-                            <li className="menu-text">MentorMeld</li>
+                            <li className="menu-text">Voluntier</li>
                         </ul>
                     </div>
                     <div className="top-bar-right">
