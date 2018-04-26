@@ -17,13 +17,18 @@ class Post extends Component {
     handleInputChange = event => {
         const { name, value } = event.target;
         this.setState({
-            // name: value,
-            // email:value,
-            // title: value,
-            // description: value
             [name]: value
         });
         
+    };
+
+    clearForm = () => {
+        this.setState({
+            name: "",
+            title: "",
+            description: "",
+            email: ""
+        });
     };
 
     handleForumSubmit = event => {
@@ -36,17 +41,13 @@ class Post extends Component {
         })
         .then(function(response) {
             console.log(response);
-            // this.state.bind({
-            //     name: "",
-            //     title: "",
-            //     description: "",
-            //     email: ""                
-            // });
+            
         })
         .catch(function (error) {
             console.log(error);
         })
         //console.log(this.state);
+        this.clearForm();
     };
     
     render() {
@@ -57,7 +58,7 @@ class Post extends Component {
                 <h4>New Post:</h4>
                 <form className="form">
                     <Input
-                        value={this.state.firstName}
+                        value={this.state.name}
                         name="name"
                         onChange={this.handleInputChange}
                         type="text"

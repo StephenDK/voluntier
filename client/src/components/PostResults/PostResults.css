@@ -1,10 +1,12 @@
 li.card {
     background-color: #f9fbff;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: inline-block;
     width: 300px;
     padding: 20px;
     margin: 25px;
 }
+
 
 ul {
   list-style-type: none;
