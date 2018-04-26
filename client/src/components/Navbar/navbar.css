@@ -1,0 +1,27 @@
+.navigation-links {
+    display: flex;
+    font-size: 16pt;
+}
+
+.menu-text {
+    font-family: 'Lobster Two', cursive;
+    font-size: 20pt;
+    color: white;
+}
+
+p, a, li {
+    font-family: 'Abel', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Crete Round', serif;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-top: 10px;
+}
+
+h3, h4 {
+    font-family: 'Crete Round', serif;
+    padding-top: 10px;
+    padding-top: 10px;
+}

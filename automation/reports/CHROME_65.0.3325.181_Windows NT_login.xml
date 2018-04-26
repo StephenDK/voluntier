@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="login"
+    errors="0" failures="0" hostname="" id="" package="login" skipped="0"
+    tests="2" time="9.334" timestamp="Fri, 20 Apr 2018 06:26:35 GMT">
+  
+    <testcase name="MentorMeld Login" classname="login" time="6.095" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="part two" classname="login" time="3.239" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
